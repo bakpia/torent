@@ -4,4 +4,4 @@ LINK_DOWNLOAD = input("PASTE LINK DOWNLOAD HERE\n") # PASTE LINK DOWNLOAD HERE
  
 import os
 os.chdir(TARGET_PATH)
-!wget -c {LINK_DOWNLOAD} --no-check-certificate
+wget -c {LINK_DOWNLOAD} --no-check-certificate
