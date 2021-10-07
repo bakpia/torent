@@ -1,3 +1,5 @@
+link = input("PASTE TORRENT/MAGNET LINK HERE \n") # PASTE TORRENT/MAGNET LINK HERE
+
 import libtorrent as lt
 import time
 import datetime
@@ -5,10 +7,10 @@ import datetime
 ses = lt.session()
 ses.listen_on(6881, 6891)
 params = {
-    'save_path': '/root/onedrive/Bakpia/Film/',
+    'save_path': '/root/onedrive/Bakpia/Torrent/',
     'storage_mode': lt.storage_mode_t(2)}
 
-print(mag)
+print(link)
 
 handle = lt.add_magnet_uri(ses, link, params)
 ses.start_dht()
