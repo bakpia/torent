@@ -5,7 +5,7 @@ import datetime
 ses = lt.session()
 ses.listen_on(6881, 6891)
 params = {
-    'save_path': '/content/drive/My Drive/Torrent/',
+    'save_path': '/root/onedrive/Bakpia/Film/',
     'storage_mode': lt.storage_mode_t(2)}
 
 print(link)
