@@ -1,6 +1,6 @@
 #@title JUST UPLOAD:
-TARGET_PATH = "" #@param {type:"string"}
-LINK_DOWNLOAD = "" #@param {type:"string"}
+TARGET_PATH = input("PASTE TARGET PATH HERE\n") # PASTE TARGET PATH HERE
+LINK_DOWNLOAD = input("PASTE LINK DOWNLOAD HERE\n") # PASTE LINK DOWNLOAD HERE
  
 import os
 os.chdir(TARGET_PATH)
