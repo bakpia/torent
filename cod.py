@@ -8,7 +8,7 @@ params = {
     'save_path': '/root/onedrive/Bakpia/Film/',
     'storage_mode': lt.storage_mode_t(2)}
 
-print(link)
+print(mag)
 
 handle = lt.add_magnet_uri(ses, link, params)
 ses.start_dht()
