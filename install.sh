@@ -117,7 +117,6 @@ install_x-ui() {
     cp -f x-ui.service /etc/systemd/system/
     wget --no-check-certificate -O /usr/bin/x-ui https://raw.githubusercontent.com/vaxilu/x-ui/main/x-ui.sh
     chmod +x /usr/bin/x-ui
-    service daemon-reload
     service x-ui enable
     service x-ui start
     echo -e "${green}x-ui v${last_version}${plain} 安装完成，面板已启动，"
